@@ -6,7 +6,11 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://www.gavlak.sk/</loc>
-  <lastmod>2017-08-30T07:30:21+00:00</lastmod>
+  <lastmod>2017-08-30T20:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  
+  <loc>https://www.gavlak.sk/en</loc>
+  <lastmod>2017-08-30T20:00:00+00:00</lastmod>
   <changefreq>yearly</changefreq>
 </url>
 </urlset>
