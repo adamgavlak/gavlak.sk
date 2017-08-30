@@ -4,36 +4,55 @@ link--hover = #80f
 html, body
     height: 100%
 
-body
+main
     display flex
     align-items center
     justify-content center
     flex-flow column
     
+    height 100%
+    padding 0 1em
+    
     font-family -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
     color #222   
 
 h1
-    font-size 5em
+    font-size 2.4em
     font-weight 300
     margin 0
 
 h2
-    font-size 1.4em
+    font-size 1.2em
     font-weight: 300
-    letter-spacing: 0.05em
     max-width: 400px
     text-align center
     line-height 1.6
-    margin-top 1.4em
+    margin-top 1em
 
 .contact
+    margin 0.1em 0
+    
     &__link
         color link
-        font-size 1.4em
+        font-size 1.2em
         font-weight 300
         position relative
         
         &:hover
             color link--hover
+            
+@media (min-width: 800px)
+    h1
+        font-size 5em
+        
+    h2
+        font-size 1.4em
+        letter-spacing: 0.05em
+        margin-top 1.4em
+        
+    .contact
+        margin 0.5em 0
+        
+        &__link 
+            font-size 1.4em
             
