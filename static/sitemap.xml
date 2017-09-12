@@ -6,31 +6,11 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://www.gavlak.sk/</loc>
-  <xhtml:link 
-    rel="alternate"
-    hreflang="sk"
-    href="http://www.gavlak.sk/"
-  />
-  <xhtml:link 
-    rel="alternate"
-    hreflang="en"
-    href="http://www.gavlak.sk/en/"
-  />
   <lastmod>2017-09-12T15:00:00+00:00</lastmod>
   <changefreq>yearly</changefreq>
 </url>
 <url>
   <loc>https://www.gavlak.sk/en</loc>
-  <xhtml:link 
-    rel="alternate"
-    hreflang="sk"
-    href="http://www.gavlak.sk/"
-  />
-  <xhtml:link 
-    rel="alternate"
-    hreflang="en"
-    href="http://www.gavlak.sk/en/"
-  />
   <lastmod>2017-09-12T15:00:00+00:00</lastmod>
   <changefreq>yearly</changefreq>
 </url>
