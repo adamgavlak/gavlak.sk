@@ -1,9 +1,13 @@
 extends _layout.pug
 
+block vars
+  - var lang = 'en'
+  - var title = 'Web sites and applications'
+
 block content
   main.en
     h1 Adam Gavlák 👋
-    h2 I create nice websites, that bring companies closer to their customers
+    h2 I create nice websites, that bring <strong>companies</strong> closer to their <strong>customers</strong>
 
     p.contact
       a(href="mailto:adam@gavlak.sk" class="contact__link") adam@gavlak.sk
