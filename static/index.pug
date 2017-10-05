@@ -3,12 +3,12 @@ extends _layout.pug
 block vars
   - var lang = 'sk'
   - var title = 'Webové stránky a aplikácie'
-  - var description = 'Tvorím pekné webové stránky, ktoré zbližujú firmy a ich zákazníkov'
+  - var description = 'Tvorím pekné webové stránky a aplikácie, ktoré zbližujú firmy a ich zákazníkov'
 
 block content
-  main
-    h1 Adam Gavlák 👋
-    h2 Tvorím pekné webové stránky, ktoré zbližujú <strong>firmy</strong> a ich <strong>zákazníkov</strong>
+  main.about
+    h1.about__name Adam Gavlák 👋
+    h2.about__motto Tvorím pekné webové stránky a aplikácie, ktoré zbližujú <strong>firmy</strong> a ich <strong>zákazníkov</strong>
 
     p.contact
       a(href="mailto:adam@gavlak.sk" class="contact__link") adam@gavlak.sk
